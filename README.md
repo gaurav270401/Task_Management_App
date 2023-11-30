@@ -85,6 +85,46 @@ Overall, this component provides a clean and structured way to add tasks with Ma
 ![image](https://github.com/gaurav270401/Task_Management_App/assets/133756033/3bb6bb35-dd9e-4881-984f-26ea1912f7d6)
 
 
+### 2.TaskList.jsx
+The provided code seems to be a React component (CrudTasks) that renders a table with task-related data. Here are some key details:
+
+#### Styling:
+The component uses Material-UI (@mui/material) for styling components like Button, Table, Pagination, etc.
+Custom styling is applied using the styled utility from Material-UI for creating styled components.
+
+#### State Management:
+The component uses the useState hook to manage various state variables, such as tasks, selectedRows, page, rowsPerPage, sortBy, and sortOrder.
+
+#### Data Fetching:
+The useEffect hook is utilized to fetch tasks when the component mounts or when there are changes in page, rowsPerPage, sortBy, or sortOrder.
+The getTasks function is called to retrieve task data from a service (not provided in the code).
+
+#### Sorting:
+Tasks are sorted based on priority in either ascending or descending order.
+
+#### Pagination:
+The component includes a Material-UI Pagination component to navigate through pages of tasks.
+
+#### Event Handling:
+
+Checkbox changes are handled with the handleCheckboxChange function, updating the selectedRows state.
+Pagination events (handlePrevPage and handleNextPage) update the page state.
+Sorting is handled by the handleSort function, updating sortBy and sortOrder states.
+
+#### Rendering:
+The task data is rendered in a table with columns for Task ID, Status, Task Name, Task Description, Priority, and Actions.
+Actions include buttons for deleting and editing tasks.
+
+#### Routing:
+The "Edit" button uses react-router-dom to navigate to the edit task page with the task ID.
+
+To visualize the front end, you would need to integrate this component into a larger React application. For details you can refer below images:
+![image](https://github.com/gaurav270401/Task_Management_App/assets/133756033/d08311d2-fcd1-4d09-9554-711ba09c32ef)
+![image](https://github.com/gaurav270401/Task_Management_App/assets/133756033/a901b909-7f5d-4b89-ae33-6366d4ede334)
+![image](https://github.com/gaurav270401/Task_Management_App/assets/133756033/7c616a54-7eee-4e41-9395-3b5581cf34ed)
+![image](https://github.com/gaurav270401/Task_Management_App/assets/133756033/6abcf2a8-0d5d-4bc3-b6fe-dfe8fe7b319a)
+
+
 
 
 
