@@ -10,8 +10,7 @@ This project is a simple task management app built using React. It provides basi
 2. [Project Structure](#project-structure)
 3. [Design Choices](#design-choices)
 4. [Additional Features](#additional-features)
-5. [Contributing](#contributing)
-6. [License](#license)
+
 
 ## Introduction
 This project is a simple task management app built using React. It provides basic functionality for users to manage tasks, including adding, editing, and deleting tasks. The app utilizes local storage to persist tasks between sessions.
