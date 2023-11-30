@@ -1,5 +1,6 @@
 # Getting Started with Create React App
 
+This project is a simple task management app built using React. It provides basic functionality for users to manage tasks, including adding, editing, and deleting tasks. The app utilizes local storage to persist tasks between sessions.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
